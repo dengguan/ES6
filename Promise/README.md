@@ -6,7 +6,7 @@
 
 ----------
 
-####1、基本用法：
+#### 1、基本用法：
 
     var promise = new Promise(function(resolve, reject) {
       if (/* 异步操作成功 */){
