@@ -9,3 +9,11 @@
 	      }
 	    }
 2. **caller**:保存着引用当前函数的函数的引用
+
+	    function outer(){
+	      inner();
+	    }
+	    function inner(){
+	      alert(arguments.callee.caller);//打印出来的是outer的代码
+	    }
+	    outer();
