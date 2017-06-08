@@ -44,5 +44,13 @@
 		    var person2 = new person();
 		    alert(person1.sayname==person2.sayname)//true
 
-4. [[Prototype]]指针指向构造函数的原型对象,在Firefox、Safari、Chrome中有__proto__属性可以访问它
+4. [[Prototype]]指针指向**构造函数的原型对象**,在Firefox、Safari、Chrome中有**__proto__属性可以访问它**
 5. Person.prototype.constructor指向Person
+
+6. Person.prototype.isPrototypeOf(person1)是判断某个构造函数的原型对象是不是实例对象指向的
+7. Object.getPrototypeOf():是返回实例对象的指向构造函数原型的指针([[Prototype]])
+
+8. Person.hasOwnProperty("name")是判断属性是否来自实例
+9. 要获取对象中可枚举的属性,可使用Object.keys()方法
+
+10. 想要获得所有实例的属性，无论是否可枚举，Object.getOwnPropertyNames()
