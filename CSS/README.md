@@ -1,4 +1,3 @@
-# ES6
 ## 面试
 * 
 > 行内元素：a、b、span、img、input、strong、select、label、em、button、textarea
