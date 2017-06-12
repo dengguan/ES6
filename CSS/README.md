@@ -64,3 +64,13 @@ xhr.ontimeout=function(){}//超过1秒会调用方法
 
 GET - 从指定的资源请求数据。有长度限制
 POST - 向指定的资源提交要被处理的数据。没长度限制，参数不会显示在URL中
+
+* 纯CSS三角形
+	
+	    #demo {
+	      width: 0;
+	      height: 0;
+	      border-width: 80px;
+	      border-style: solid;
+	      border-color: transparent transparent  transparent red;
+	    }
