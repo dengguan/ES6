@@ -1,0 +1,9 @@
+- 200 OK,一切正常，对GET和POST请求的应答文档跟在后面
+- 300 Multiple Choices,客户请求的文档可以在多个位置找到，这些位置已经在返回的文档内列出。如果服务器要提出优先选择，则应该在Location应
+- 400 Bad Request,请求出现语法错误
+- 401 Unauthorized,客户试图未经授权访问受密码保护的页面
+- 403 Forbidden,资源不可用
+- 404 Not Found,无法找到指定位置的资源
+- 410 Gone,所请求的文档已经不再可用，而且服务器不知道应该重定向到哪一个地址
+- 500 Internal Server Error,服务器遇到了意料不到的情况，不能完成客户的请求
+- 501 Not Implemented,服务器不支持实现请求所需要的功能
